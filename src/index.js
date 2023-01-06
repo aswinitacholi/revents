@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './layout/styles.css';
-import App from './layout/App';
+import 'semantic-ui-css/semantic.min.css';
+import './app/layout/styles.css';
+import App from './app/layout/App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 if (module.hot) {
-  module.hot.accept('./layout/App', function(){
+  module.hot.accept('./app/layout/App', function(){
     setTimeout(render)
   })
 }
