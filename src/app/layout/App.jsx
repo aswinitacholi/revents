@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <NavBar setFormOpen={setFormOpen}/>
+      <NavBar setFormOpen={handleCreateFormOpen}/>
       <Container className="main">
         <EventDashboard 
           formOpen={formOpen} 
